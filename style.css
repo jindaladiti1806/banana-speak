@@ -74,6 +74,13 @@ body {
 footer {
     margin-top: 1em;
     text-align: center;
+    background-color: #fcd34d;
+  padding: 2rem 0rem;
+  text-align: center;
+  color: black;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  margin: 0;
 }
 
 footer a {
