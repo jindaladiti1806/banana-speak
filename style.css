@@ -1,15 +1,11 @@
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-    font-family: "Lakki Reddy", cursive;
-}
+
 .navigation {
     background-color:  #fcd34d;
     padding: 0.9rem 1rem;
     color:black;
     text-align: center;
     font-size: 2em;
+    font-family: "Lakki Reddy";
   }
   
 .nav-heading {
@@ -54,6 +50,7 @@ body {
     border-radius: 1em;
     padding: 1em;
     max-width: 90%;
+    font-family: "Lakki Reddy";
 }
 
 .button {
@@ -64,12 +61,25 @@ body {
     padding: 0.5em 1em 0.1em 1em;
     border-radius: 1em;
     font-size: 1.4rem;
+    font-family: "Lakki Reddy";
 }
 
 .button:hover {
     padding: 0.4em 0.8em 0.05em 0.8em;
     margin: 1.08em auto;
 }
+#btn-mic{
+    margin: 1em auto;
+    display: block;
+    background-color: #fcd34d;
+    border: none;
+    padding: 0.5em 1em 0.1em 1em;
+    border-radius: 1em;
+    font-size: 1.4rem;
+    font-family: "Lakki Reddy";
+
+}
+
 
 footer {
     margin-top: 1em;
@@ -81,6 +91,7 @@ footer {
   border-top-right-radius: 1rem;
   border-top-left-radius: 1rem;
   margin: 0;
+  font-family: "Lakki Reddy";
 }
 
 footer a {
@@ -103,4 +114,29 @@ footer a:hover {
     .header h1 {
         font-size: 2rem;
     }
+}
+.social-icons{
+    padding: 0px 0;
+}
+
+.social-icons a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    font-size: 1.3em;
+    text-align: center;
+    background:white;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.social-icons a .fa{
+    line-height: 36px;
+}
+
+.social-icons a:hover{
+    color:#fcd34d;
+    background: black;
 }
